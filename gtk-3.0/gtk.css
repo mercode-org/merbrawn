@@ -528,13 +528,13 @@ iconview:selected:focus {
 
 rubberband{
 
-  border: 1px solid #1954ad;
-  background-color: rgba(25, 84, 173, 0.2);}
+  border: 1px solid #ff4d0d;
+  background-color: rgba(255,77,13,0.2);}
 
 .rubberband{
 
- border: 1px solid #1954ad;
-  background-color: rgba(25, 84, 173, 0.2);}
+ border: 1px solid #ff4d0d;
+  background-color: rgba(255,77,13,0.2);}
 
 /******************************************************/
 /* flowbox                                            */
@@ -542,8 +542,8 @@ rubberband{
 
 flowbox rubberband{
 
-border: 1px solid #1954ad;
-  background-color: rgba(25, 84, 173, 0.2); }
+border: 1px solid #ff4d0d;
+  background-color: rgba(255,77,13,0.2); }
 
 flowbox flowboxchild {
 
@@ -572,7 +572,7 @@ flowbox flowboxchild:disabled:selected{
 treeview.view rubberband{
 
   border: 1px solid #ff4d0d;
-  background-color: rgba(255,162,6,0.2); }
+  background-color: rgba(255,77,13,0.2); }
 
 treeview entry{
 
@@ -1008,7 +1008,7 @@ treeview.radio:checked:disabled:selected{
 
 .content-view rubberband{
  border: 1px solid #ff4d0d;
-  background-color: rgba(255,162,6,0.2); }
+  background-color: rgba(255,77,13,0.2); }
 
 .view.content-view.check:not(list){
 
@@ -7789,7 +7789,7 @@ menubar > menuitem{
 menubar > menuitem:hover{
 
 
-  background-color:  #3268a2;
+  background-color:  #ff4d0d;
   color: rgba(255,255,255,0.96);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
@@ -7803,7 +7803,7 @@ menubar > menuitem:hover{
 
 .menubar > menuitem:hover {
 
-  background-color:  #3268a2;
+  background-color:  #ff4d0d;
   color: rgba(255,255,255,0.96);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
@@ -8288,7 +8288,7 @@ switch:checked {
 switch:checked:disabled {
 
 
-  background-color: rgba(255,162,6,0.2);
+  background-color: rgba(255,77,13,0.2);
   color: rgba(0, 0, 0, 0.32); }
 
 switch slider {
@@ -10356,7 +10356,7 @@ button.documents-favorite:active:hover {
 background-image:image(#535353);}
 
 .tweak-category:selected {
-background-image:image(#3268a2);}
+background-image:image(#ff4d0d);}
 
 .tweak-category:hover:active {
 background-image:image(#2a5586);}
@@ -12444,13 +12444,13 @@ headerbar button.titlebutton.restore:active,
 
 .nautilus-window .floating-bar button:active:hover{
 
-  color: #3268a2;
+  color: #ff4d0d;
   background-color: #ffffff;
   border-color: #ffffff; }
 
 .nautilus-window .floating-bar button:checked {
 
-  color: #3268a2;
+  color: #ff4d0d;
   background-color: #ffffff;
   border-color: #ffffff; }
 
@@ -12469,13 +12469,13 @@ headerbar button.titlebutton.restore:active,
 
 .nautilus-window .floating-bar button:disabled:active{
 
-  color: #3268a2;
+  color: #ff4d0d;
   background-color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.4); }
 
 .nautilus-window .floating-bar button:disabled:checked {
 
-  color: #3268a2;
+  color: #ff4d0d;
   background-color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.4); }
 
@@ -12624,7 +12624,7 @@ color: #ffffff;
 				  0px  1px alpha(#202020, 0.7),
 				  0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);
-  background-color: rgba(50,104,162,1); }
+  background-color: #ff4d0d; }
 
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected .sidebar-icon {
 
@@ -12640,7 +12640,7 @@ color: #ffffff;
 				  0px  1px alpha(#202020, 0.7),
 				  0px  2px alpha(#202020, 0.05);
 -gtk-icon-shadow: 0px 1px alpha(#202020, 0.2);
-  background-color: rgba(64,129,203,1); }
+  background-color: #ff4d0d; }
 
 .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon {
 
@@ -12705,7 +12705,7 @@ color: #ffffff;
 
 .nautilus-window placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row {
 
-  color: #3268a2; }
+  color: #ff4d0d; }
 
 .nautilus-window placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
 
@@ -12947,7 +12947,7 @@ scale trough:disabled {
 scale fill {
 
   border-radius: 3px;
-  background-color: #3369a4; }
+  background-color: #ff4d0d; }
 
 scale fill:disabled {
 
