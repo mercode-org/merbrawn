@@ -272,15 +272,15 @@
 
 .view:disabled:selected{
 
-   color: rgba(255,97,13,1);}
+   color: rgb(255,97,13);}
 
 .view text:disabled:selected{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 .view text selection:disabled{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 
 
@@ -333,11 +333,11 @@ iconview text selection:focus{
 
 iconview text selection:disabled{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 iconview text selection:disabled:focus{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 iconview text selection{
 
@@ -352,15 +352,15 @@ iconview text selection{
 
 iconview text:disabled:selected{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 iconview:disabled:selected{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 iconview:disabled:selected:focus{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 /********ICONVIEW CHECK BUTTONS  *********************/
 
@@ -475,7 +475,7 @@ textview text selection:focus{
 
 textview text:disabled:selected{
 
-  color: rgba(255,97,13,1);
+  color: rgb(255,97,13);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
@@ -484,7 +484,7 @@ textview text:disabled:selected{
 
 textview text selection:disabled{
 
-  color: rgba(255,97,13,1);
+  color: rgb(255,97,13);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
@@ -562,7 +562,7 @@ flowbox flowboxchild:selected{
 
 flowbox flowboxchild:disabled:selected{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 /******************************************************/
 /* treeview                                           */
@@ -625,11 +625,11 @@ treeview.view:disabled {
 
 treeview.view:disabled:selected {
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 treeview.view:disabled:selected:focus{
 
-  color: rgba(255,97,13,1); }
+  color: rgb(255,97,13); }
 
 treeview.view acceleditor > label {
 
@@ -1063,7 +1063,7 @@ label:disabled {
 
 label:disabled selection{
 
-  color: rgba(255,97,13,1);}
+  color: rgb(255,97,13);}
 
 label.nautilus-canvas-item.separator{
 
@@ -1618,7 +1618,7 @@ entry selection{
 
 entry selection:disabled{
 
-  color: rgba(255,97,13,1);
+  color: rgb(255,97,13);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
@@ -4222,7 +4222,7 @@ inline-toolbar {
 .inline-toolbar {
 
   -GtkWidget-window-dragging: true;
-  padding: 4px;
+  padding: 4px, 2px;
   background-color: #484848; }
 
 .inline-toolbar separator {
@@ -7817,7 +7817,7 @@ menubar > menuitem{
 menubar > menuitem:hover{
 
 
-  background-color:  #3268a2;
+  background-color: rgb(255,77,13);
   color: rgba(255,255,255,0.96);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
@@ -7831,7 +7831,7 @@ menubar > menuitem:hover{
 
 .menubar > menuitem:hover {
 
-  background-color:  #3268a2;
+  background-color: rgb(255,77,13);
   color: rgba(255,255,255,0.96);
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
@@ -10576,7 +10576,7 @@ MsdOsdWindow.background.osd .trough {
 
 .composited-indicator > GtkWidget > GtkWidget:first-child {
 
-  padding: 0 2px; }
+  padding: 2px, 2px; }
 
 .composited-indicator .menuitem:active,
 .composited-indicator .menuitem:hover {
