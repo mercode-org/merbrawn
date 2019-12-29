@@ -10434,7 +10434,7 @@ background-image:image(#2a5586);}
 #gf-osd-window levelbar block.empty,
 #gf-input-source-popup levelbar block.empty,
 #gf-candidate-popup levelbar block.empty {
-  background-color: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9)); }
+  background-color: #ff4d0d; }
 
 #gf-bubble levelbar trough,
 #gf-osd-window levelbar trough,
@@ -10496,7 +10496,7 @@ MsdOsdWindow.background.osd .progressbar {
 
 MsdOsdWindow.background.osd .trough {
 
-  background-color: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
+  background-color: #ff4d0d;
   border: none;
   border-radius: 5px; }
 
