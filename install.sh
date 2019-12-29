@@ -3,7 +3,7 @@
 set -e
 
 gh_repo="mercode-jbrawn"
-gh_desc="Mercode-Jbrawn"
+gh_desc="Mercode-JBrawn"
 
 cat <<- EOF
 
@@ -23,6 +23,6 @@ cat <<- EOF
 
 EOF
 git pull origin master
-sudo mkdir -p /usr/share/themes/mercode-jbrawn
-sudo cp -r -f ./ /usr/share/themes/mercode-jbrawn/
+sudo mkdir -p ~/.themes/mercode-jbrawn
+sudo cp -r -f ./ ~/.themes/mercode-jbrawn/
 echo Done!
