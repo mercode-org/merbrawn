@@ -24,5 +24,5 @@ cat <<- EOF
 EOF
 git pull origin master
 sudo mkdir -p /usr/share/themes/mercode-jbrawn
-sudo cp -r -f ./ /usr/share/themes/Mercode-Jbrawn/
+sudo cp -r -f ./ /usr/share/themes/mercode-jbrawn/
 echo Done!
